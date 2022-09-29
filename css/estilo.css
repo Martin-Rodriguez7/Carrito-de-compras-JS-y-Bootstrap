@@ -1,0 +1,128 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.logo_img {
+  width: 100px;
+  height: 85px;
+}
+
+/* ? CARRUSEL */
+.carousel-caption {
+  z-index: 2;
+
+}
+
+header {
+
+  z-index: 99;
+}
+
+.alert {
+
+  z-index: 100;
+}
+
+.carritoshop {
+  position: absolute;
+  left: 80%;
+  align-items: center;
+ ;
+}
+
+.hide,
+.remove {
+
+  display: none;
+}
+
+.carousel:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  z-index: 1;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-image: radial-gradient(circle farthest-corner at 12.3% 19.3%,
+      rgb(86, 86, 86) 0%,
+      rgb(99, 109, 141) 100%);
+  opacity: 0.5;
+}
+
+
+.carousel-inner img {
+  width: 100%;
+  max-height: 680px;
+  background-image: radial-gradient(circle farthest-corner at 12.3% 19.3%,
+      rgb(100, 100, 100) 0%,
+      rgb(213, 213, 213) 100%);
+  opacity: 0.8;
+}
+
+.carousel-inner {
+  height: auto;
+}
+
+.carousel-caption {
+  margin-bottom: 250px;
+}
+
+/*CARD DE PRODUCTOS*/
+.card {
+  border-radius: 5px;
+  overflow: hidden;
+  color: #626262;
+  box-shadow: 0 0 15px -5px rgba(0, 0, 0, 0.1);
+  transition: 0.5s all ease;
+
+}
+
+.card>img {
+  width: 300px;
+  height: 290px;
+
+}
+
+.card:hover {
+  box-shadow: 0 0 40px -15px #636363;
+}
+
+.card-description {
+  height: 25px;
+  overflow: hidden;
+  transition: height .2s ease-in .1s;
+}
+
+.card-description:hover {
+  height: 80px;
+}
+
+
+/*TABLA*/
+
+.table__productos {
+  display: flex;
+}
+
+.table__productos>img {
+  width: 9rem;
+  object-fit: contain;
+  border-radius: 6px;
+  margin-right: 20px;
+}
+
+.table__cantidad>input {
+  width: 40px;
+  border: none;
+  outline: 0;
+  font-size: 16px;
+  font-weight: 700;
+  margin-right: 30px;
+  margin-bottom: 20px;
+}
+
+.table {
+  border: rgb(175, 175, 175) 2px solid;
+  border-collapse: separate;
+}
