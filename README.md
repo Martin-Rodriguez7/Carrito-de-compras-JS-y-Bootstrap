@@ -1,3 +1,3 @@
 # Carrito-de-compras-JS-y-Bootstrap
 
-## Front-end
+## Practica desarrollo Front-end de carrito de compras con javascript y bootstrap.
